@@ -18,7 +18,7 @@ html,body {
 
 body {
     /* Background image */
-    background: url("./assets/donut.png");
+    background: url("assets/donut.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
