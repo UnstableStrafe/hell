@@ -3,7 +3,7 @@
     --primary: #e6779f;
     --spacing: 1rem;
     
-    font-size: 22px;
+    font-size: clamp(2vh, 22px, 5vw);
 }
 
 
