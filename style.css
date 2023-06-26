@@ -144,9 +144,12 @@ a {
     width: 1em;
     height: 1em;
 
-    position: static; 
+    position: fixed; 
     bottom: 0; 
     left: 1em;  
+    background-color: none;
+    outline: none:
+    font-size: inherit;
 }
 
 #doom-button-image {
