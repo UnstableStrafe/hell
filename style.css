@@ -139,20 +139,35 @@ a {
 .back-button > svg path {
     fill: var(--text);
 }
-#doom-button {
-    display: block;
-    width: 1em;
-    height: 1em;
 
+/* Doom */
+
+#doom-button {
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+ 
+    display: block;
+    width: 3em;
+    height: 3em;
+    
     position: fixed; 
     bottom: 0; 
-    left: 1em;  
-    background-color: none;
-    outline: none:
-    font-size: inherit;
+    left: 1em;
 }
-
+    
 #doom-button-image {
     width: 100%;
     height: 100%;
+    object-fit: contain;
+}
+
+#doom {
+    display: none;
+
+    width: 680px; 
+    height: 400px;
+    max-width: 100%;
+    background-color: black;
 }
